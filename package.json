@@ -1,0 +1,20 @@
+{
+  "name": "aws-wrapper",
+  "version": "1.8.1",
+  "description": "Trendalytics AWS module, wrapper for official aws-sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com:ecdeveloper/aws-wrapper.git"
+  },
+  "author": "Evgheni Chiriliuc <ec.developer@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1.4",
+    "lodash": "^2.4.1",
+    "mime": "^1.2.11"
+  }
+}

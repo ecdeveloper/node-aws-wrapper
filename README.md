@@ -9,8 +9,7 @@ Note: The module has been developed while working for Trendalytics.
 After instantiating aws-wrapper, it will contain 2 objects - s3 and sqs. Below is the API for each of them.
 
 ### S3 ###
-```
-#!JavaScript
+```JavaScript
 /**
  * Get S3 url based on S3 full path
  *
@@ -49,8 +48,7 @@ aws.s3.getFileContents(s3Path, callback);
 ```
 
 ### SQS ###
-```
-#!JavaScript
+```JavaScript
 /**
  * Push a message to SQS
  *
@@ -108,8 +106,7 @@ aws.sqs.purgeQueue(queueName, callback);
 
 ## Usage ##
 
-```
-#!JavaScript
+```JavaScript
 
 var awsConfig = {
 	"accessKeyId": "<access key id>",

@@ -8,8 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com:ecdeveloper/aws-wrapper.git"
+    "url": "https://github.com/ecdeveloper/node-aws-wrapper"
   },
+  "keywords": ["aws", "wrapper", "amazon", "sqs", "s3"],
   "author": "Evgheni Chiriliuc <ec.developer@gmail.com>",
   "license": "ISC",
   "dependencies": {
